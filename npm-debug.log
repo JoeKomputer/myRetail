@@ -1,0 +1,560 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.3
+4 verbose readDependencies loading dependencies from /Users/josefkerkinni/fullstack-demo/package.json
+5 verbose install where, deps [ '/Users/josefkerkinni/fullstack-demo',
+5 verbose install   [ 'express',
+5 verbose install     'morgan',
+5 verbose install     'body-parser',
+5 verbose install     'method-override',
+5 verbose install     'serve-favicon',
+5 verbose install     'cookie-parser',
+5 verbose install     'express-session',
+5 verbose install     'errorhandler',
+5 verbose install     'compression',
+5 verbose install     'lodash',
+5 verbose install     'ejs',
+5 verbose install     'mongoose',
+5 verbose install     'jsonwebtoken',
+5 verbose install     'express-jwt',
+5 verbose install     'passport',
+5 verbose install     'passport-local',
+5 verbose install     'passport-twitter',
+5 verbose install     'passport-google-oauth',
+5 verbose install     'composable-middleware',
+5 verbose install     'connect-mongo',
+5 verbose install     'socket.io',
+5 verbose install     'socket.io-client',
+5 verbose install     'socketio-jwt',
+5 verbose install     'grunt',
+5 verbose install     'grunt-autoprefixer',
+5 verbose install     'grunt-wiredep',
+5 verbose install     'grunt-concurrent',
+5 verbose install     'grunt-contrib-clean',
+5 verbose install     'grunt-contrib-concat',
+5 verbose install     'grunt-contrib-copy',
+5 verbose install     'grunt-contrib-cssmin',
+5 verbose install     'grunt-contrib-htmlmin',
+5 verbose install     'grunt-contrib-imagemin',
+5 verbose install     'grunt-contrib-jshint',
+5 verbose install     'grunt-contrib-uglify',
+5 verbose install     'grunt-contrib-watch',
+5 verbose install     'grunt-google-cdn',
+5 verbose install     'grunt-newer',
+5 verbose install     'grunt-ng-annotate',
+5 verbose install     'grunt-rev',
+5 verbose install     'grunt-svgmin',
+5 verbose install     'grunt-usemin',
+5 verbose install     'grunt-env',
+5 verbose install     'grunt-node-inspector',
+5 verbose install     'grunt-nodemon',
+5 verbose install     'grunt-angular-templates',
+5 verbose install     'grunt-dom-munger',
+5 verbose install     'grunt-protractor-runner',
+5 verbose install     'grunt-asset-injector',
+5 verbose install     'grunt-karma',
+5 verbose install     'grunt-build-control',
+5 verbose install     'grunt-mocha-test',
+5 verbose install     'grunt-contrib-sass',
+5 verbose install     'jit-grunt',
+5 verbose install     'time-grunt',
+5 verbose install     'grunt-express-server',
+5 verbose install     'grunt-open',
+5 verbose install     'open',
+5 verbose install     'jshint-stylish',
+5 verbose install     'connect-livereload',
+5 verbose install     'karma-ng-scenario',
+5 verbose install     'karma-firefox-launcher',
+5 verbose install     'karma-script-launcher',
+5 verbose install     'karma-html2js-preprocessor',
+5 verbose install     'karma-ng-jade2js-preprocessor',
+5 verbose install     'karma-jasmine',
+5 verbose install     'karma-chrome-launcher',
+5 verbose install     'requirejs',
+5 verbose install     'karma-requirejs',
+5 verbose install     'karma-coffee-preprocessor',
+5 verbose install     'karma-jade-preprocessor',
+5 verbose install     'karma-phantomjs-launcher',
+5 verbose install     'karma',
+5 verbose install     'karma-ng-html2js-preprocessor',
+5 verbose install     'supertest',
+5 verbose install     'should' ] ]
+6 verbose install where, peers [ '/Users/josefkerkinni/fullstack-demo', [] ]
+7 verbose installManyTop reading for lifecycle /Users/josefkerkinni/fullstack-demo/package.json
+8 info preinstall demo@0.0.0
+9 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/body-parser/package.json
+10 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/composable-middleware/package.json
+11 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/compression/package.json
+12 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/connect-livereload/package.json
+13 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/connect-mongo/package.json
+14 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/cookie-parser/package.json
+15 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/ejs/package.json
+16 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/errorhandler/package.json
+17 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/express/package.json
+18 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/express-jwt/package.json
+19 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/express-session/package.json
+20 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt/package.json
+21 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-angular-templates/package.json
+22 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-asset-injector/package.json
+23 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-autoprefixer/package.json
+24 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-build-control/package.json
+25 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-concurrent/package.json
+26 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-contrib-clean/package.json
+27 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-contrib-concat/package.json
+28 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-contrib-copy/package.json
+29 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-contrib-cssmin/package.json
+30 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-contrib-htmlmin/package.json
+31 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-contrib-imagemin/package.json
+32 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-contrib-jshint/package.json
+33 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-contrib-sass/package.json
+34 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-contrib-uglify/package.json
+35 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-contrib-watch/package.json
+36 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-dom-munger/package.json
+37 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-env/package.json
+38 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-express-server/package.json
+39 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-google-cdn/package.json
+40 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-karma/package.json
+41 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-mocha-test/package.json
+42 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-newer/package.json
+43 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-ng-annotate/package.json
+44 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-node-inspector/package.json
+45 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-nodemon/package.json
+46 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-open/package.json
+47 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-protractor-runner/package.json
+48 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-rev/package.json
+49 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-svgmin/package.json
+50 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-usemin/package.json
+51 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-wiredep/package.json
+52 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/jit-grunt/package.json
+53 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/jshint-stylish/package.json
+54 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/jsonwebtoken/package.json
+55 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/karma/package.json
+56 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/karma-chrome-launcher/package.json
+57 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/karma-coffee-preprocessor/package.json
+58 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/karma-firefox-launcher/package.json
+59 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/karma-html2js-preprocessor/package.json
+60 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/karma-jade-preprocessor/package.json
+61 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/karma-jasmine/package.json
+62 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/karma-ng-html2js-preprocessor/package.json
+63 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/karma-ng-jade2js-preprocessor/package.json
+64 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/karma-ng-scenario/package.json
+65 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/karma-phantomjs-launcher/package.json
+66 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/karma-requirejs/package.json
+67 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/karma-script-launcher/package.json
+68 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/lodash/package.json
+69 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/method-override/package.json
+70 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/mongoose/package.json
+71 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/morgan/package.json
+72 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/open/package.json
+73 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/passport/package.json
+74 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/passport-google-oauth/package.json
+75 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/passport-local/package.json
+76 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/passport-twitter/package.json
+77 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/requirejs/package.json
+78 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/serve-favicon/package.json
+79 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/should/package.json
+80 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/socket.io/package.json
+81 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/socket.io-client/package.json
+82 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/socketio-jwt/package.json
+83 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/supertest/package.json
+84 verbose installManyTop reading scoped package data from /Users/josefkerkinni/fullstack-demo/node_modules/time-grunt/package.json
+85 info package.json composable-middleware@0.3.0 No license field.
+86 info package.json connect-livereload@0.4.1 No license field.
+87 info package.json connect-mongo@0.4.2 No license field.
+88 info package.json cookie-parser@1.0.1 No license field.
+89 info package.json ejs@0.8.8 No license field.
+90 info package.json express-jwt@0.1.4 No license field.
+91 info package.json grunt@0.4.5 No license field.
+92 info package.json grunt-angular-templates@0.5.7 No license field.
+93 info package.json grunt-asset-injector@0.1.0 No license field.
+94 info package.json grunt-build-control@0.1.3 No license field.
+95 info package.json grunt-concurrent@0.5.0 No license field.
+96 info package.json grunt-contrib-clean@0.5.0 No license field.
+97 info package.json grunt-contrib-concat@0.4.0 No license field.
+98 info package.json grunt-contrib-copy@0.5.0 No license field.
+99 info package.json grunt-contrib-cssmin@0.9.0 No license field.
+100 info package.json grunt-contrib-htmlmin@0.2.0 No license field.
+101 info package.json grunt-contrib-imagemin@0.7.2 No license field.
+102 info package.json grunt-contrib-jshint@0.10.0 No license field.
+103 info package.json grunt-contrib-sass@0.7.4 No license field.
+104 info package.json grunt-contrib-uglify@0.4.1 No license field.
+105 info package.json grunt-contrib-watch@0.6.1 No license field.
+106 info package.json grunt-dom-munger@3.4.0 No license field.
+107 info package.json grunt-env@0.4.4 No license field.
+108 info package.json grunt-express-server@0.4.19 No license field.
+109 info package.json grunt-google-cdn@0.4.3 license should be a valid SPDX license expression
+110 info package.json grunt-mocha-test@0.10.2 No license field.
+111 info package.json grunt-newer@0.7.0 No license field.
+112 info package.json grunt-ng-annotate@0.2.3 No license field.
+113 info package.json grunt-open@0.2.3 No license field.
+114 info package.json grunt-protractor-runner@1.2.1 No license field.
+115 info package.json grunt-rev@0.1.0 No license field.
+116 info package.json grunt-svgmin@0.4.0 No license field.
+117 info package.json grunt-usemin@2.1.1 license should be a valid SPDX license expression
+118 info package.json grunt-wiredep@1.8.0 No license field.
+119 info package.json mongoose@3.8.28 No license field.
+120 info package.json passport-local@0.1.6 No license field.
+121 info package.json requirejs@2.1.17 No license field.
+122 info package.json should@3.3.2 No license field.
+123 info package.json socket.io@1.3.5 No license field.
+124 info package.json passport-twitter@1.0.3 No license field.
+125 info package.json passport-google-oauth@0.2.0 No license field.
+126 verbose readDependencies loading dependencies from /Users/josefkerkinni/fullstack-demo/package.json
+127 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/body-parser/package.json
+128 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/composable-middleware/package.json
+129 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/compression/package.json
+130 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/connect-livereload/package.json
+131 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/connect-mongo/package.json
+132 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/cookie-parser/package.json
+133 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/ejs/package.json
+134 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/errorhandler/package.json
+135 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/express/package.json
+136 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/express-jwt/package.json
+137 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/express-session/package.json
+138 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt/package.json
+139 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-angular-templates/package.json
+140 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-asset-injector/package.json
+141 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-autoprefixer/package.json
+142 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-build-control/package.json
+143 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-concurrent/package.json
+144 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-contrib-clean/package.json
+145 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-contrib-concat/package.json
+146 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-contrib-copy/package.json
+147 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-contrib-cssmin/package.json
+148 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-contrib-htmlmin/package.json
+149 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-contrib-imagemin/package.json
+150 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-contrib-jshint/package.json
+151 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-contrib-sass/package.json
+152 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-contrib-uglify/package.json
+153 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-contrib-watch/package.json
+154 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-dom-munger/package.json
+155 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-env/package.json
+156 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-express-server/package.json
+157 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-google-cdn/package.json
+158 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-karma/package.json
+159 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-mocha-test/package.json
+160 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-newer/package.json
+161 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-ng-annotate/package.json
+162 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-node-inspector/package.json
+163 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-nodemon/package.json
+164 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-open/package.json
+165 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-protractor-runner/package.json
+166 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-rev/package.json
+167 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-svgmin/package.json
+168 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-usemin/package.json
+169 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/grunt-wiredep/package.json
+170 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/jit-grunt/package.json
+171 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/jshint-stylish/package.json
+172 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/jsonwebtoken/package.json
+173 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/karma/package.json
+174 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/karma-chrome-launcher/package.json
+175 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/karma-coffee-preprocessor/package.json
+176 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/karma-firefox-launcher/package.json
+177 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/karma-html2js-preprocessor/package.json
+178 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/karma-jade-preprocessor/package.json
+179 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/karma-jasmine/package.json
+180 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/karma-ng-html2js-preprocessor/package.json
+181 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/karma-ng-jade2js-preprocessor/package.json
+182 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/karma-ng-scenario/package.json
+183 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/karma-phantomjs-launcher/package.json
+184 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/karma-requirejs/package.json
+185 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/karma-script-launcher/package.json
+186 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/lodash/package.json
+187 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/method-override/package.json
+188 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/mongoose/package.json
+189 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/morgan/package.json
+190 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/open/package.json
+191 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/passport/package.json
+192 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/passport-google-oauth/package.json
+193 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/passport-local/package.json
+194 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/passport-twitter/package.json
+195 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/requirejs/package.json
+196 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/serve-favicon/package.json
+197 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/should/package.json
+198 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/socket.io/package.json
+199 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/socket.io-client/package.json
+200 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/socketio-jwt/package.json
+201 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/supertest/package.json
+202 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/time-grunt/package.json
+203 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/.bin/grunt-open/package.json
+204 verbose targetResolver reading package data from /Users/josefkerkinni/fullstack-demo/node_modules/.bin/r.js/package.json
+205 verbose already installed skipping mongoose@~3.8.8 /Users/josefkerkinni/fullstack-demo
+206 verbose already installed skipping jsonwebtoken@^0.3.0 /Users/josefkerkinni/fullstack-demo
+207 verbose already installed skipping express-jwt@^0.1.3 /Users/josefkerkinni/fullstack-demo
+208 verbose already installed skipping passport@~0.2.0 /Users/josefkerkinni/fullstack-demo
+209 verbose already installed skipping passport-local@~0.1.6 /Users/josefkerkinni/fullstack-demo
+210 silly cache add args [ 'passport-twitter@latest', null ]
+211 verbose cache add spec passport-twitter@latest
+212 silly cache add args [ 'passport-google-oauth@latest', null ]
+213 verbose cache add spec passport-google-oauth@latest
+214 verbose already installed skipping composable-middleware@^0.3.0 /Users/josefkerkinni/fullstack-demo
+215 verbose already installed skipping connect-mongo@^0.4.1 /Users/josefkerkinni/fullstack-demo
+216 verbose already installed skipping socket.io@^1.0.6 /Users/josefkerkinni/fullstack-demo
+217 verbose already installed skipping socket.io-client@^1.0.6 /Users/josefkerkinni/fullstack-demo
+218 silly cache add parsed spec { raw: 'passport-twitter@latest',
+218 silly cache add   scope: null,
+218 silly cache add   name: 'passport-twitter',
+218 silly cache add   rawSpec: 'latest',
+218 silly cache add   spec: 'latest',
+218 silly cache add   type: 'tag' }
+219 silly addNamed passport-twitter@latest
+220 verbose addNamed "latest" is being treated as a dist-tag for passport-twitter
+221 info addNameTag [ 'passport-twitter', 'latest' ]
+222 silly mapToRegistry name passport-twitter
+223 silly mapToRegistry using default registry
+224 silly mapToRegistry registry https://registry.npmjs.org/
+225 silly mapToRegistry uri https://registry.npmjs.org/passport-twitter
+226 verbose addNameTag registry:https://registry.npmjs.org/passport-twitter not in flight; fetching
+227 silly cache add parsed spec { raw: 'passport-google-oauth@latest',
+227 silly cache add   scope: null,
+227 silly cache add   name: 'passport-google-oauth',
+227 silly cache add   rawSpec: 'latest',
+227 silly cache add   spec: 'latest',
+227 silly cache add   type: 'tag' }
+228 silly addNamed passport-google-oauth@latest
+229 verbose addNamed "latest" is being treated as a dist-tag for passport-google-oauth
+230 info addNameTag [ 'passport-google-oauth', 'latest' ]
+231 silly mapToRegistry name passport-google-oauth
+232 silly mapToRegistry using default registry
+233 silly mapToRegistry registry https://registry.npmjs.org/
+234 silly mapToRegistry uri https://registry.npmjs.org/passport-google-oauth
+235 verbose addNameTag registry:https://registry.npmjs.org/passport-google-oauth not in flight; fetching
+236 verbose already installed skipping socketio-jwt@^2.0.2 /Users/josefkerkinni/fullstack-demo
+237 verbose already installed skipping grunt@~0.4.4 /Users/josefkerkinni/fullstack-demo
+238 verbose already installed skipping grunt-autoprefixer@~0.7.2 /Users/josefkerkinni/fullstack-demo
+239 verbose already installed skipping grunt-wiredep@~1.8.0 /Users/josefkerkinni/fullstack-demo
+240 verbose already installed skipping grunt-concurrent@~0.5.0 /Users/josefkerkinni/fullstack-demo
+241 verbose already installed skipping grunt-contrib-clean@~0.5.0 /Users/josefkerkinni/fullstack-demo
+242 verbose request uri https://registry.npmjs.org/passport-twitter
+243 verbose request no auth needed
+244 info attempt registry request try #1 at 4:40:17 PM
+245 verbose request id dc1324fa02172996
+246 verbose etag "6OFR66YZRNQSSPSYGFBTKNO41"
+247 http request GET https://registry.npmjs.org/passport-twitter
+248 verbose request uri https://registry.npmjs.org/passport-google-oauth
+249 verbose request no auth needed
+250 info attempt registry request try #1 at 4:40:17 PM
+251 verbose etag "8ICS6HTVCRGSX6FAHP8Q2ZW2Z"
+252 http request GET https://registry.npmjs.org/passport-google-oauth
+253 verbose already installed skipping grunt-contrib-concat@~0.4.0 /Users/josefkerkinni/fullstack-demo
+254 verbose already installed skipping grunt-contrib-copy@~0.5.0 /Users/josefkerkinni/fullstack-demo
+255 verbose already installed skipping grunt-contrib-cssmin@~0.9.0 /Users/josefkerkinni/fullstack-demo
+256 verbose already installed skipping grunt-contrib-htmlmin@~0.2.0 /Users/josefkerkinni/fullstack-demo
+257 verbose already installed skipping grunt-contrib-imagemin@~0.7.1 /Users/josefkerkinni/fullstack-demo
+258 verbose already installed skipping grunt-contrib-jshint@~0.10.0 /Users/josefkerkinni/fullstack-demo
+259 verbose already installed skipping grunt-contrib-uglify@~0.4.0 /Users/josefkerkinni/fullstack-demo
+260 verbose already installed skipping grunt-contrib-watch@~0.6.1 /Users/josefkerkinni/fullstack-demo
+261 verbose already installed skipping grunt-google-cdn@~0.4.0 /Users/josefkerkinni/fullstack-demo
+262 verbose already installed skipping grunt-newer@~0.7.0 /Users/josefkerkinni/fullstack-demo
+263 verbose already installed skipping grunt-ng-annotate@^0.2.3 /Users/josefkerkinni/fullstack-demo
+264 verbose already installed skipping grunt-rev@~0.1.0 /Users/josefkerkinni/fullstack-demo
+265 verbose already installed skipping grunt-svgmin@~0.4.0 /Users/josefkerkinni/fullstack-demo
+266 verbose already installed skipping grunt-usemin@~2.1.1 /Users/josefkerkinni/fullstack-demo
+267 verbose already installed skipping grunt-env@~0.4.1 /Users/josefkerkinni/fullstack-demo
+268 verbose already installed skipping grunt-node-inspector@~0.1.5 /Users/josefkerkinni/fullstack-demo
+269 verbose already installed skipping grunt-nodemon@~0.2.0 /Users/josefkerkinni/fullstack-demo
+270 verbose already installed skipping grunt-angular-templates@^0.5.4 /Users/josefkerkinni/fullstack-demo
+271 verbose already installed skipping grunt-dom-munger@^3.4.0 /Users/josefkerkinni/fullstack-demo
+272 verbose already installed skipping grunt-protractor-runner@^1.1.0 /Users/josefkerkinni/fullstack-demo
+273 verbose already installed skipping grunt-asset-injector@^0.1.0 /Users/josefkerkinni/fullstack-demo
+274 verbose already installed skipping grunt-karma@~0.8.2 /Users/josefkerkinni/fullstack-demo
+275 silly cache add args [ 'grunt-build-control@github:daftmonk/grunt-build-control',
+275 silly cache add   null ]
+276 verbose cache add spec grunt-build-control@github:daftmonk/grunt-build-control
+277 verbose already installed skipping grunt-mocha-test@~0.10.2 /Users/josefkerkinni/fullstack-demo
+278 verbose already installed skipping grunt-contrib-sass@^0.7.3 /Users/josefkerkinni/fullstack-demo
+279 verbose already installed skipping jit-grunt@^0.5.0 /Users/josefkerkinni/fullstack-demo
+280 verbose already installed skipping time-grunt@~0.3.1 /Users/josefkerkinni/fullstack-demo
+281 silly cache add parsed spec { raw: 'grunt-build-control@github:daftmonk/grunt-build-control',
+281 silly cache add   scope: null,
+281 silly cache add   name: 'grunt-build-control',
+281 silly cache add   rawSpec: 'github:daftmonk/grunt-build-control',
+281 silly cache add   spec: 'github:daftmonk/grunt-build-control',
+281 silly cache add   type: 'hosted',
+281 silly cache add   hosted:
+281 silly cache add    { type: 'github',
+281 silly cache add      ssh: 'git@github.com:daftmonk/grunt-build-control.git',
+281 silly cache add      sshUrl: 'git+ssh://git@github.com/daftmonk/grunt-build-control.git',
+281 silly cache add      httpsUrl: 'git+https://github.com/daftmonk/grunt-build-control.git',
+281 silly cache add      gitUrl: 'git://github.com/daftmonk/grunt-build-control.git',
+281 silly cache add      shortcut: 'github:daftmonk/grunt-build-control',
+281 silly cache add      directUrl: 'https://raw.githubusercontent.com/daftmonk/grunt-build-control/master/package.json' } }
+282 verbose addRemoteGit caching github:daftmonk/grunt-build-control
+283 verbose addRemoteGit daftmonk/grunt-build-control is a repository hosted by github
+284 silly tryGitProto attempting to clone git://github.com/daftmonk/grunt-build-control.git
+285 silly tryClone cloning daftmonk/grunt-build-control via git://github.com/daftmonk/grunt-build-control.git
+286 verbose tryClone git-github-com-daftmonk-grunt-build-control-git-d6834a5f not in flight; caching
+287 verbose already installed skipping grunt-express-server@~0.4.17 /Users/josefkerkinni/fullstack-demo
+288 verbose already installed skipping grunt-open@~0.2.3 /Users/josefkerkinni/fullstack-demo
+289 verbose already installed skipping open@~0.0.4 /Users/josefkerkinni/fullstack-demo
+290 info git [ 'config', '--get', 'remote.origin.url' ]
+291 verbose already installed skipping jshint-stylish@~0.1.5 /Users/josefkerkinni/fullstack-demo
+292 verbose already installed skipping connect-livereload@~0.4.0 /Users/josefkerkinni/fullstack-demo
+293 verbose already installed skipping karma-ng-scenario@~0.1.0 /Users/josefkerkinni/fullstack-demo
+294 verbose already installed skipping karma-firefox-launcher@~0.1.3 /Users/josefkerkinni/fullstack-demo
+295 verbose already installed skipping karma-script-launcher@~0.1.0 /Users/josefkerkinni/fullstack-demo
+296 verbose already installed skipping karma-html2js-preprocessor@~0.1.0 /Users/josefkerkinni/fullstack-demo
+297 verbose already installed skipping karma-ng-jade2js-preprocessor@^0.1.2 /Users/josefkerkinni/fullstack-demo
+298 verbose already installed skipping karma-jasmine@~0.1.5 /Users/josefkerkinni/fullstack-demo
+299 verbose already installed skipping karma-chrome-launcher@~0.1.3 /Users/josefkerkinni/fullstack-demo
+300 verbose already installed skipping requirejs@~2.1.11 /Users/josefkerkinni/fullstack-demo
+301 silly validateExistingRemote daftmonk/grunt-build-control remote.origin.url: git://github.com/daftmonk/grunt-build-control.git
+302 verbose validateExistingRemote daftmonk/grunt-build-control is updating existing cached remote /Users/josefkerkinni/.npm/_git-remotes/git-github-com-daftmonk-grunt-build-control-git-d6834a5f
+303 verbose already installed skipping karma-requirejs@~0.2.1 /Users/josefkerkinni/fullstack-demo
+304 verbose already installed skipping karma-coffee-preprocessor@~0.2.1 /Users/josefkerkinni/fullstack-demo
+305 verbose already installed skipping karma-jade-preprocessor@0.0.11 /Users/josefkerkinni/fullstack-demo
+306 verbose already installed skipping karma-phantomjs-launcher@~0.1.4 /Users/josefkerkinni/fullstack-demo
+307 verbose already installed skipping karma@~0.12.9 /Users/josefkerkinni/fullstack-demo
+308 info git [ 'fetch', '-a', 'origin' ]
+309 verbose already installed skipping karma-ng-html2js-preprocessor@~0.1.0 /Users/josefkerkinni/fullstack-demo
+310 verbose already installed skipping supertest@~0.11.0 /Users/josefkerkinni/fullstack-demo
+311 verbose already installed skipping should@~3.3.1 /Users/josefkerkinni/fullstack-demo
+312 verbose already installed skipping express@~4.0.0 /Users/josefkerkinni/fullstack-demo
+313 verbose already installed skipping morgan@~1.0.0 /Users/josefkerkinni/fullstack-demo
+314 verbose already installed skipping body-parser@~1.5.0 /Users/josefkerkinni/fullstack-demo
+315 verbose already installed skipping method-override@~1.0.0 /Users/josefkerkinni/fullstack-demo
+316 verbose already installed skipping serve-favicon@~2.0.1 /Users/josefkerkinni/fullstack-demo
+317 verbose already installed skipping cookie-parser@~1.0.1 /Users/josefkerkinni/fullstack-demo
+318 verbose already installed skipping express-session@~1.0.2 /Users/josefkerkinni/fullstack-demo
+319 verbose already installed skipping errorhandler@~1.0.0 /Users/josefkerkinni/fullstack-demo
+320 verbose already installed skipping compression@~1.0.1 /Users/josefkerkinni/fullstack-demo
+321 verbose already installed skipping lodash@~2.4.1 /Users/josefkerkinni/fullstack-demo
+322 verbose already installed skipping ejs@~0.8.4 /Users/josefkerkinni/fullstack-demo
+323 http 304 https://registry.npmjs.org/passport-google-oauth
+324 silly get cb [ 304,
+324 silly get   { date: 'Mon, 25 May 2015 21:40:18 GMT',
+324 silly get     via: '1.1 varnish',
+324 silly get     'cache-control': 'max-age=60',
+324 silly get     etag: '"8ICS6HTVCRGSX6FAHP8Q2ZW2Z"',
+324 silly get     age: '0',
+324 silly get     connection: 'keep-alive',
+324 silly get     'x-served-by': 'cache-ord1724-ORD',
+324 silly get     'x-cache': 'HIT',
+324 silly get     'x-cache-hits': '1',
+324 silly get     'x-timer': 'S1432590018.070924,VS0,VE66',
+324 silly get     vary: 'Accept' } ]
+325 verbose etag https://registry.npmjs.org/passport-google-oauth from cache
+326 verbose get saving passport-google-oauth to /Users/josefkerkinni/.npm/registry.npmjs.org/passport-google-oauth/.cache.json
+327 http 304 https://registry.npmjs.org/passport-twitter
+328 silly get cb [ 304,
+328 silly get   { date: 'Mon, 25 May 2015 21:40:18 GMT',
+328 silly get     via: '1.1 varnish',
+328 silly get     'cache-control': 'max-age=60',
+328 silly get     etag: '"6OFR66YZRNQSSPSYGFBTKNO41"',
+328 silly get     age: '0',
+328 silly get     connection: 'keep-alive',
+328 silly get     'x-served-by': 'cache-ord1726-ORD',
+328 silly get     'x-cache': 'MISS',
+328 silly get     'x-cache-hits': '0',
+328 silly get     'x-timer': 'S1432590018.070193,VS0,VE39',
+328 silly get     vary: 'Accept' } ]
+329 verbose etag https://registry.npmjs.org/passport-twitter from cache
+330 verbose get saving passport-twitter to /Users/josefkerkinni/.npm/registry.npmjs.org/passport-twitter/.cache.json
+331 verbose updateRemote git fetch -a origin (git://github.com/daftmonk/grunt-build-control.git)
+332 silly addNameTag next cb for passport-google-oauth with tag latest
+333 silly addNamed passport-google-oauth@0.2.0
+334 verbose addNamed "0.2.0" is a plain semver version for passport-google-oauth
+335 silly addNameTag next cb for passport-twitter with tag latest
+336 silly addNamed passport-twitter@1.0.3
+337 verbose addNamed "1.0.3" is a plain semver version for passport-twitter
+338 silly cache afterAdd passport-google-oauth@0.2.0
+339 verbose afterAdd /Users/josefkerkinni/.npm/passport-google-oauth/0.2.0/package/package.json not in flight; writing
+340 silly cache afterAdd passport-twitter@1.0.3
+341 verbose afterAdd /Users/josefkerkinni/.npm/passport-twitter/1.0.3/package/package.json not in flight; writing
+342 verbose setPermissions daftmonk/grunt-build-control set permissions on /Users/josefkerkinni/.npm/_git-remotes/git-github-com-daftmonk-grunt-build-control-git-d6834a5f
+343 verbose resolveHead daftmonk/grunt-build-control original treeish: master
+344 info git [ 'rev-list', '-n1', 'master' ]
+345 verbose afterAdd /Users/josefkerkinni/.npm/passport-twitter/1.0.3/package/package.json written
+346 info already installed passport-twitter@1.0.3
+347 verbose afterAdd /Users/josefkerkinni/.npm/passport-google-oauth/0.2.0/package/package.json written
+348 info already installed passport-google-oauth@0.2.0
+349 silly resolveHead daftmonk/grunt-build-control resolved treeish: 3d03ebbe49f8f963ef43c50af1084a15f56611fa
+350 verbose resolveHead daftmonk/grunt-build-control resolved Git URL: git://github.com/daftmonk/grunt-build-control.git#3d03ebbe49f8f963ef43c50af1084a15f56611fa
+351 silly resolveHead Git working directory: /var/folders/jx/dkrs7_5x16v3vhny97hjtk500000gn/T/npm-39107-f815d831/git-cache-612450b4d307/3d03ebbe49f8f963ef43c50af1084a15f56611fa
+352 info git [ 'clone',
+352 info git   '/Users/josefkerkinni/.npm/_git-remotes/git-github-com-daftmonk-grunt-build-control-git-d6834a5f',
+352 info git   '/var/folders/jx/dkrs7_5x16v3vhny97hjtk500000gn/T/npm-39107-f815d831/git-cache-612450b4d307/3d03ebbe49f8f963ef43c50af1084a15f56611fa' ]
+353 verbose cloneResolved daftmonk/grunt-build-control clone Cloning into '/var/folders/jx/dkrs7_5x16v3vhny97hjtk500000gn/T/npm-39107-f815d831/git-cache-612450b4d307/3d03ebbe49f8f963ef43c50af1084a15f56611fa'...
+353 verbose cloneResolved done.
+354 info git [ 'checkout', '3d03ebbe49f8f963ef43c50af1084a15f56611fa' ]
+355 verbose checkoutTreeish daftmonk/grunt-build-control checkout Note: checking out '3d03ebbe49f8f963ef43c50af1084a15f56611fa'.
+355 verbose checkoutTreeish
+355 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+355 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+355 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+355 verbose checkoutTreeish
+355 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+355 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+355 verbose checkoutTreeish
+355 verbose checkoutTreeish   git checkout -b new_branch_name
+355 verbose checkoutTreeish
+355 verbose checkoutTreeish HEAD is now at 3d03ebb... Merge remote-tracking branch 'upstream/master'
+356 verbose addLocalDirectory /Users/josefkerkinni/.npm/grunt-build-control/0.1.3/package.tgz not in flight; packing
+357 verbose tar pack [ '/Users/josefkerkinni/.npm/grunt-build-control/0.1.3/package.tgz',
+357 verbose tar pack   '/var/folders/jx/dkrs7_5x16v3vhny97hjtk500000gn/T/npm-39107-f815d831/git-cache-612450b4d307/3d03ebbe49f8f963ef43c50af1084a15f56611fa' ]
+358 verbose tarball /Users/josefkerkinni/.npm/grunt-build-control/0.1.3/package.tgz
+359 verbose folder /var/folders/jx/dkrs7_5x16v3vhny97hjtk500000gn/T/npm-39107-f815d831/git-cache-612450b4d307/3d03ebbe49f8f963ef43c50af1084a15f56611fa
+360 verbose addLocalTarball adding from inside cache /Users/josefkerkinni/.npm/grunt-build-control/0.1.3/package.tgz
+361 verbose addRemoteGit data._from: daftmonk/grunt-build-control
+362 verbose addRemoteGit data._resolved: git://github.com/daftmonk/grunt-build-control.git#3d03ebbe49f8f963ef43c50af1084a15f56611fa
+363 silly cache afterAdd grunt-build-control@0.1.3
+364 verbose afterAdd /Users/josefkerkinni/.npm/grunt-build-control/0.1.3/package/package.json not in flight; writing
+365 verbose afterAdd /Users/josefkerkinni/.npm/grunt-build-control/0.1.3/package/package.json written
+366 silly install resolved [ { name: 'grunt-build-control',
+366 silly install resolved     description: 'Automate version control tasks for your project\'s built code. Keep built code in sync with source code, maintain multiple branches of built code, commit with automatic messages, and push to remote repositories.',
+366 silly install resolved     version: '0.1.3',
+366 silly install resolved     homepage: 'https://github.com/robwierzbowski/grunt-build-control',
+366 silly install resolved     author:
+366 silly install resolved      { name: 'Rob Wierzbowski',
+366 silly install resolved        email: 'hello@robwierzbowski.com',
+366 silly install resolved        url: 'http://robwierzbowski' },
+366 silly install resolved     repository:
+366 silly install resolved      { type: 'git',
+366 silly install resolved        url: 'git://github.com/robwierzbowski/grunt-build-control.git' },
+366 silly install resolved     bugs: { url: 'https://github.com/robwierzbowski/grunt-build-control/issues' },
+366 silly install resolved     licenses: [ [Object] ],
+366 silly install resolved     main: 'Gruntfile.js',
+366 silly install resolved     engines: { node: '>= 0.10.0' },
+366 silly install resolved     scripts: { test: 'grunt test' },
+366 silly install resolved     dependencies: { shelljs: '~0.2.6' },
+366 silly install resolved     devDependencies:
+366 silly install resolved      { 'grunt-contrib-jshint': '~0.1.1',
+366 silly install resolved        'grunt-contrib-clean': '~0.4.0',
+366 silly install resolved        'grunt-contrib-nodeunit': '~0.1.2',
+366 silly install resolved        grunt: '~0.4.1' },
+366 silly install resolved     peerDependencies: { grunt: '~0.4.1' },
+366 silly install resolved     keywords: [ 'gruntplugin' ],
+366 silly install resolved     gitHead: '3d03ebbe49f8f963ef43c50af1084a15f56611fa',
+366 silly install resolved     readme: '# grunt-build-control\n\n> Version control built code.\n\n### HELP WRITE TESTS FOR THIS TASK\n\nFor continued development, this library needs test coverage. If you like writing tests and like this Grunt task, please take a look at [issue #19](https://github.com/robwierzbowski/grunt-build-control/issues/19) and consider helping with a pull request. Any assistance is appreciated.\n\n## Getting started\n\nThis plugin requires [Grunt](http://gruntjs.com/) `~0.4.0` and [Git](http://git-scm.com/) `> 1.8`.\n\nIf you haven\'t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide which explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you\'re familiar with Grunt you can install the plugin with the command:\n\n```shell\nnpm install grunt-build-control --save-dev\n```\n\nAfter the plugin has been installed, load it in your Gruntfile with:\n\n```js\ngrunt.loadNpmTasks(\'grunt-build-control\');\n```\n\n## buildcontrol task\n\n_Run this task with the `grunt buildcontrol` command._\n\nAutomate version control tasks for your project\'s built code. \n\nKeep built code in sync with source code, maintain multiple branches of built code, commit with automatic messages, and push to remote repositories.\n\n### Setup\n\nYour project must have a compile or build process that outputs code to a subdirectory of the main project.\n\nAdd the build directory to the main project\'s .gitignore, and make sure the build process doesn\'t delete .git directories inside the build directory. If you\'re using a [Yeoman](http://yeoman.io) generator these steps are taken care of for you already.\n\n### Options\n\n#### dir\n\nType: `String`  \nDefault: `dist`  \n\nThe directory that contains your built code.\n\n#### branch\n\nType: `String`  \nDefault: `dist`  \n\nThe branch to commit to.\n\n#### remote\n\nType: `String`  \nDefault: `../`  \n\nThe remote to push to. Common examples include a distribution repository (Heroku or Scalr), your main project\'s remote (gh-pages branch on Github), or the local project repository itself (`../`).\n\n#### commit\n\nType: `Boolean`  \nDefault: `false`  \n\nCommits built code to `branch`. A new commit is only created if the built code has changed.\n\n#### tag\n\nType: `Boolean` or `String`  \nDefault: `false`  \n\nIf set to a string, adds its value as a lightweight git tag to the local built repo. Try loading your project\'s package.json as a variable and tagging with `pkg.version`.\n\n#### push\n\nType: `Boolean`  \nDefault: `false`  \n\nPushes `branch` to `remote`. If `tag` is set, pushes the specified tag as well.\n\n#### message\n\nType: `String`  \nDefault: `Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%  `\n\nThe commit message to use when committing. It must be a safe commit message for the command line, with special characters and double quotes escaped.\n\nYou can use the following tokens to print information about the main project:\n\n- `%sourceName%`: The main project\'s name, read from package.json or the project directory\n- `%sourceBranch%`: The main project\'s current branch\n- `%sourceCommit%`: The main project\'s most recent commit\n\n#### connectCommits\n\nType: `Boolean`  \nDefault: `true`  \n\nMake sure that every commit on the built code branch matches a commit on the main project branch. If the main project\'s working directory has uncommitted changes, a commit task will throw an error.\n\n### Usage\n\nA common use of grunt-build-control is to commit and push built code to the GitHub pages branch of the main repository, or to the master branch of a git-based deployment server like Heroku. \n\n```js\n// Project configuration.\nvar pkg = require(\'./package.json\');\n\ngrunt.initConfig({\n\n  // Various Grunt tasks...\n\n  buildcontrol: {\n    options: {\n      dir: \'dist\',\n      commit: true,\n      push: true,\n      message: \'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%\'\n    },\n    pages: {\n      options: {\n        remote: \'git@github.com:example_user/example_webapp.git\',\n        branch: \'gh-pages\'\n      }\n    },\n    heroku: {\n      options: {\n        remote: \'git@heroku.com:example-heroku-webapp-1988.git\',\n        branch: \'master\',\n        tag: pkg.version\n      }\n    },\n    local: {\n      options: {\n        remote: \'../\',\n        branch: \'build\'\n      }\n    }\n  }\n});\n\ngrunt.registerTask(\'build\', [\n  // Collection of tasks that build code to the \'dist\' directory...\n]);\n```\n\nIn this example a user is working on a Yeoman-based web app, with their project\'s source code hosted at `git@github.com:example_user/example_webapp.git`. To deploy they first run `grunt build` to build a minified, optimized version of their app into the \'dist\' directory. \n\nRunning `grunt buildcontrol:pages` commits the built code to the gh-pages branch of the \'dist/.git\' repository and pushes to the gh-pages branch of `git@github.com:example_user/example_webapp.git`. \n\nRunning `grunt buildcontrol:heroku` will commit the built code to the master branch of the \'dist/.git\' repository, tag the latest commit in \'dist/.git\' with the value of `pkg.version` if the tag doesn\'t already exist, and push refs and tags to the master branch of `git@heroku.com:example-heroku-webapp-1988.git`.\n\nRunning `grunt buildcontrol:local` will commit the built code to the build branch of the \'dist/.git\' repository and push to the build branch of the local source code repository. The local project repository can then be synced with a remote.\n\n#### Working with .gitignores\n\nYou may wish to commit files or directories that are ignored globally or in the source repository (e.g., bower_compontents), or make file inclusion and exclusion the responsibility of the build process alone.\n\nIn order to scope gitignore rules to the build directory only, create a file named \'gitignore\' in your source directory: \n\n```shell\n# Unignore everything\n!**/*\n\n# Re-ignore things\n...your ignore rules here\n```\n\nThen copy it to the build directory during your build process as \'.gitignore\'.\n\n#### Notes\n\nGrunt-build-control deploys to git endpoints. If you want to deploy to a private server [this tutorial by @curtisblackwell ](http://curtisblackwell.com/blog/my-deploy-method-brings-most-of-the-boys-to-the-yard) is a good place to start.\n\n`buildcontrol` will add commits on top of the existing history of the remote branch if available.\n\n`buildcontrol` is a synchronous task, and fetches from your remote before each commit or push. Depending on the location of your remote, the size of commits, and network speed it can be a long running task.\n\nIt\'s best to run `buildcontrol` manually after your build process or as the last step in a build and deploy task.\n\nIf a git conflict occurs (usually because another user has force-pushed to the deployment server) delete the built code directory and run build and build control again.\n\nDon\'t check out built code branches while in the main project directory. Differences in untracked files will cause issues.\n\n<!-- \n## Todo:\n\n- replace as many porcelain commands as possible with plumbing.\n- describe or list similar projects with limitations?  \n  https://npmjs.org/package/grunt-github-pages  \n  https://npmjs.org/package/grunt-git-dist  \n  https://npmjs.org/package/grunt-git-selective-deploy  \n\n-->\n \n## Contribute\n\nPost bugs and feature requests to the [Github issue tracker](https://github.com/robwierzbowski/grunt-build-control/issues). In lieu of a formal styleguide, take care to maintain the existing coding style. Lint and test your code using [Grunt](https://github.com/gruntjs/grunt).\n\n## Release History\n\n- 2013-11-29 v0.1.2: Add defaults for all properties.\n- 2013-10-19 v0.1.1: Stable initial release.\n\n## License\n\n[MIT](http://en.wikipedia.org/wiki/MIT_License)\n\n\n\n[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/robwierzbowski/grunt-build-control/trend.png)](https://bitdeli.com/free "Bitdeli Badge")\n\n',
+366 silly install resolved     readmeFilename: 'README.md',
+366 silly install resolved     _id: 'grunt-build-control@0.1.3',
+366 silly install resolved     _shasum: 'd071c973e26a67d6a43fa2a6b8891af6e8a447e6',
+366 silly install resolved     _from: 'daftmonk/grunt-build-control',
+366 silly install resolved     _resolved: 'git://github.com/daftmonk/grunt-build-control.git#3d03ebbe49f8f963ef43c50af1084a15f56611fa' } ]
+367 info install grunt-build-control@0.1.3 into /Users/josefkerkinni/fullstack-demo
+368 info installOne grunt-build-control@0.1.3
+369 verbose installOne of grunt-build-control to /Users/josefkerkinni/fullstack-demo not in flight; installing
+370 warn locking Error: EACCES, open '/Users/josefkerkinni/.npm/_locks/grunt-build-control-2b7172cd7c0e402c.lock'
+370 warn locking     at Error (native)
+370 warn locking  /Users/josefkerkinni/.npm/_locks/grunt-build-control-2b7172cd7c0e402c.lock failed { [Error: EACCES, open '/Users/josefkerkinni/.npm/_locks/grunt-build-control-2b7172cd7c0e402c.lock']
+370 warn locking   errno: -13,
+370 warn locking   code: 'EACCES',
+370 warn locking   path: '/Users/josefkerkinni/.npm/_locks/grunt-build-control-2b7172cd7c0e402c.lock' }
+371 verbose stack Error: Attempt to unlock /Users/josefkerkinni/fullstack-demo/node_modules/grunt-build-control, which hasn't been locked
+371 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:66:11)
+371 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/install.js:1017:5)
+371 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:1021:20
+371 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:40:9
+371 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+371 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+371 verbose stack     at FSReqWrap.oncomplete (fs.js:95:15)
+372 verbose cwd /Users/josefkerkinni/fullstack-demo
+373 error Darwin 14.0.0
+374 error argv "node" "/usr/local/bin/npm" "install"
+375 error node v0.12.3
+376 error npm  v2.10.1
+377 error Attempt to unlock /Users/josefkerkinni/fullstack-demo/node_modules/grunt-build-control, which hasn't been locked
+378 error If you need help, you may report this error at:
+378 error     <https://github.com/npm/npm/issues>
+379 verbose exit [ 1, true ]

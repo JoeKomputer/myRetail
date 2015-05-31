@@ -1,0 +1,16 @@
+<div class="col-md-12">
+    <div class="product-container">
+        <h2>{{product.title}}</h2>
+        <img ng-src="../../assets/images/{{product.image}}">
+        <div class="detail-container">
+        <div class="price-container"><h3>{{product.price}}</h3><p>online price</p></div>
+        <div class="quantity-container"><p>quantity:</p><div class="increment-container"><button ng-click="product.quantity = product.quantity > 0 ? product.quantity - 1 : 0">&#8212;</button><h3>{{product.quantity}}</h3><button ng-click="product.quantity = product.quantity + 1">&#43;</button></div></div>
+        <h3>product highlights</h3>
+        <ul>
+            <li ng-repeat="highlights in product.details">{{highlights}}</li>
+        </ul>
+            <button class="restock-button" ng-click="restock()">RESTOCK</button>
+            <button class="btl-button" ng-click="backToList()">BACK TO LIST</button>
+        </div>
+    </div>
+</div>
